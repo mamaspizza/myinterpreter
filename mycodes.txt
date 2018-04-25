@@ -1,0 +1,20 @@
+main() {
+
+ int a
+ int b
+ int totalab
+ int totaldegree
+ int totalvalue
+ totaldegree = 180
+ write "Missing Triangle Angle Calculator"
+ writeline "Please enter the value of the first angle"
+ readline a
+ writeline "Please enter the value of the sengle angle"
+ readline b
+ totalab = a + b
+ totalvalue = totaldegree - totalab
+ write "Your missing angle is"
+ write totalvalue
+ writeline "Thank you for using the calculator" 
+
+}

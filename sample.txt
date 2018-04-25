@@ -1,0 +1,22 @@
+main() {
+ int a
+ int e 
+ e = 1 + 1
+ int f 
+ f = 9
+ int b
+ read b
+ int g
+ g = f * 9
+ int h 
+ h = 10 / b
+ int i 
+ i = g - h 
+ a = e + i
+ write "The output is:"
+ writeline a
+ write "The other output is:"
+ int j
+ j = a + a
+ writeline j 
+}
